@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body, h1, h2, h3, h4, h5, h6, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1, .h1 {
+    font-size: 40px;
+    color: #F7F7F2;
+    font-style: none;
+    font-weight: normal;
+    left: 50px;
+    top: 20px;
+    padding-top: 40px;
+}
+h2, .h2 {
+    font-size: 32px;
+    color: #F7F7F2;
+    font-style: none;
+    font-weight: normal;
+    left: 50px;
+    top: 20px;
+}
+h3, .h3 {
+    font-size: 28px;
+}
+h4, .h4 {
+    font-size: 24px;
+}
+h5, .h5 {
+    font-size: 20px;
+}
+h6, .h6 {
+    font-size: 16px;
+}
+.hero-image {
+    background-image: url('Heroimage.png');
+    background-color: #F7F7F2;
+    height: 1080px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.img {
+    padding-left: 120px;
+    border: none;
+}
+.nav {
+    height: 72px;
+    padding: 60px;
+}
+.nav-list {
+  height: 100%;  
+  line-height: 72px;
+  position: absolute; 
+  top: 0; 
+  right: 0
+}
+.nav-item {
+    display: list-item;
+    margin-left: 16px;
+}
+.nav-link {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:#F7F7F2
+}
+.nav-link:hover {
+   color: rgb(248, 231, 77); 
+}
